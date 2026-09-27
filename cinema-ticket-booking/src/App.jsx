@@ -242,6 +242,39 @@ function App() {
 
           </section>
 
+          {/* ================= INTRODUCTION ================= */}
+
+          <section className="intro-section">
+
+            <h2>
+              Welcome to Cinema Ticket Booking
+            </h2>
+
+            <p>
+              Welcome to Cinema Ticket Booking, your convenient online
+              platform for discovering movies and booking your cinema
+              tickets with ease. Browse available movies, explore show
+              timings, select your preferred theatre and tickets, and
+              enter your booking details through a simple and
+              user-friendly interface. The application is designed to
+              make the movie-booking process quick, organized, and easy
+              to navigate.
+            </p>
+
+            <p>
+              Our platform is built using modern web technologies
+              including React, JavaScript, CSS, and Vite, with Supabase
+              providing the backend database functionality. Movie, show,
+              and booking information is managed through Supabase,
+              allowing the application to connect the frontend with
+              stored data and maintain booking records. Whether you are
+              exploring movies or making a reservation, Cinema Ticket
+              Booking brings the essential steps of the booking
+              experience together in one place.
+            </p>
+
+          </section>
+
           <h2>Now Showing</h2>
 
           {movies.length === 0 ? (

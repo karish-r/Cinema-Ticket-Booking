@@ -459,6 +459,28 @@ button:hover {
     margin: 20px 0;
   }
 
+  .intro-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.intro-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f5c518;
+}
+
+.intro-section p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: #d6d6d6;
+}
+
+
   .booking-header {
     flex-direction: column;
 
